@@ -1,0 +1,44 @@
+{
+    "com.github.plibither8.ulauncher-vscode-recent": {
+        "id": "com.github.plibither8.ulauncher-vscode-recent",
+        "url": "https://github.com/plibither8/ulauncher-vscode-recent",
+        "updated_at": "2021-08-31T18:44:52.118544",
+        "last_commit": "6f3e34c30f2124b78f480733460299722504469a",
+        "last_commit_time": "2021-08-31T07:41:34"
+    },
+    "com.github.tchar.ulauncher-albert-calculate-anything": {
+        "id": "com.github.tchar.ulauncher-albert-calculate-anything",
+        "url": "https://github.com/tchar/ulauncher-albert-calculate-anything",
+        "updated_at": "2021-08-31T18:45:48.580262",
+        "last_commit": "ee0903174c8b87cd1f7c3b6c1acef10702547507",
+        "last_commit_time": "2021-08-12T06:39:56"
+    },
+    "com.github.ojos.ulauncher-workspaces": {
+        "id": "com.github.ojos.ulauncher-workspaces",
+        "url": "https://github.com/ojos/ulauncher-workspaces",
+        "updated_at": "2021-08-31T18:50:02.402535",
+        "last_commit": "024af85daa90b90f7fe7c3503a2dd118f7ad2992",
+        "last_commit_time": "2021-01-15T13:36:55"
+    },
+    "com.github.mikebarkmin.ulauncher-obsidian": {
+        "id": "com.github.mikebarkmin.ulauncher-obsidian",
+        "url": "https://github.com/mikebarkmin/ulauncher-obsidian",
+        "updated_at": "2021-08-31T18:50:34.724984",
+        "last_commit": "85c869eda769eb7cd70b341451281038b5473b92",
+        "last_commit_time": "2021-07-18T21:10:03"
+    },
+    "com.github.nastuzzisamy.ulauncher-google-search": {
+        "id": "com.github.nastuzzisamy.ulauncher-google-search",
+        "url": "https://github.com/NastuzziSamy/ulauncher-google-search",
+        "updated_at": "2021-08-31T18:51:55.387042",
+        "last_commit": "a649258c57369451cc96a44e382779c301b32943",
+        "last_commit_time": "2021-03-27T12:04:51"
+    },
+    "com.github.nastuzzisamy.ulauncher-youtube-search": {
+        "id": "com.github.nastuzzisamy.ulauncher-youtube-search",
+        "url": "https://github.com/NastuzziSamy/ulauncher-youtube-search",
+        "updated_at": "2021-08-31T18:52:12.546788",
+        "last_commit": "fe855811358b2f15ec6ed69ca18e20639874fa28",
+        "last_commit_time": "2021-03-27T11:29:18"
+    }
+}
