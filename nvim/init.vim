@@ -45,6 +45,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'mhinz/vim-startify'
 Plug 'arcticicestudio/nord-vim'
+Plug 'ryanoasis/vim-devicons'
 
 
 if isdirectory('/usr/local/opt/fzf')
