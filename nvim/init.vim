@@ -701,6 +701,7 @@ let g:lightline = {
       \ },
       \ 'component_function': {
       \   'filename': 'LightlineFilename',
+      \   'gitbranch': 'FugitiveHead',
       \ },
       \ }
 
