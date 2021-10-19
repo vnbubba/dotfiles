@@ -210,7 +210,7 @@ set guioptions=egmrti
 set gfn=Monospace\ 10
 
 " Enable true colors                                                                                                                                                                                                         
-if exists('+termguicolors') && ($TERM == "st-256color" || $TERM == "tmux-256color" || $TERM == "xterm-256color")
+if (has(“termguicolors”)) && ($TERM == "st-256color" || $TERM == "tmux-256color" || $TERM == "xterm-256color")
    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"                                                                                                                                                                             
    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"                                                                                                                                                                                  
    set termguicolors
@@ -755,15 +755,15 @@ let s:p.tabline.tabsel = [ [ s:nord1, s:nord8 ] ]
 
 let g:lightline#colorscheme#nord#palette = lightline#colorscheme#flatten(s:p)
 
-"Color Hexokinase
-" Enable default
-nnoremap <silent> <F9> :HexokinaseTurnOn<CR>
+"Hexokinase
+" Auto enable
+au VimEnter * HexokinaseToggle
+
 "Sample value, to keep default behaviour don't define this variable
 let g:Hexokinase_ftEnabled = ['css', 'html', 'javascript']
 
-" Neovim default
+"Style
 let g:Hexokinase_highlighters = ['backgroundfull']
-
 
 " Patterns to match for all filetypes
 " Can be a comma separated string or a list of strings
@@ -799,13 +799,6 @@ let g:startify_session_persistence = 1
 let g:startify_enable_special = 0
 let g:startify_change_to_vcs_root = 1
 
-let g:startify_lists = [
-    \ { 'type': 'files',     'header': ['   MRU']            },
-    \ { 'type': 'dir',       'header': ['   MRU '. getcwd()] },
-    \ { 'type': 'sessions',  'header': ['   Sessions']       },
-    \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
-    \ { 'type': 'commands',  'header': ['   Commands']       },
-    \ ]
 
 "Format"
 function! s:truncate_filename(fname)
