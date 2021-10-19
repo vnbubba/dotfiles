@@ -1,2 +1,4 @@
 # Screenshots
-![nvim](https://user-images.githubusercontent.com/87162330/137766465-4ec4cef7-6cf3-4d08-bf1f-55cdd54f5f8f.png)
+
+![nvim](https://user-images.githubusercontent.com/87162330/137948233-2a562eb9-9c93-4227-8fbc-bbfaa95eb42f.png)
+![nvim2](https://user-images.githubusercontent.com/87162330/137948771-ef093926-a08c-4129-abbd-393e957af0a9.png)
