@@ -209,13 +209,18 @@ let &t_ut=''
 set guioptions=egmrti
 set gfn=Monospace\ 10
 
+" Enable true colors                                                                                                                                                                                                         
+if exists('+termguicolors') && ($TERM == "st-256color" || $TERM == "tmux-256color" || $TERM == "xterm-256color")
+   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"                                                                                                                                                                             
+   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"                                                                                                                                                                                  
+   set termguicolors
+endif 
+
 if has("gui_running")
-   " Enable true colors                                                                                                                                                                                                         
-    if exists('+termguicolors')      
-        set termguicolors 
-        let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"                                                                                                                                                                             
-        let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"                                                                                                                                                                                  
-    endif 
+    if has("gui_running")
+    set fuoptions=maxvert,maxhorz
+    au GUIEnter * set fullscreen
+endif
 else
   let g:CSApprox_loaded = 1
 
